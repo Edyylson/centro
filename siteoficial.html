@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igreja Reconciliação Oficial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script defer src="apps.js"></script>
+</head>
+
+<header>
+  <h1>Tesouraria da igreja</h1>
+  <h2>DEUS AMA O DOADOR QUE SE ALEGRA COM A DOAÇÃO (2 COR 9:7)</h2>
+
+  <h1 class="bt-menu"><i id="menu" class="bi bi-list" onclick="clickMenu()">Menu</i></h1>
+
+  <section id="section">
+    <ul>
+
+      <li><a href="#">Sobre</a><img src="img botao/informacao1.png" alt="sobre"></li>
+      <li><a href="#">Projetos</a><img src="img botao/projeto01.png" alt="projetos"></li>
+      <li><a onclick="cliquemenu()" href="#">Tesouraria Mensal<i class="bi bi-clipboard2-data"></i></a>
+
+        <div id="itens">
+          <a href=" https://edyylson.github.io/site/" target="telaiframe">Fechamento caixa<br> - Agosto</a>
+          <a href="#">fechamento caixa<br> -Setembro</a>
+        </div>
+
+      </li>
+
+      <li><a onclick="cliquemenu01()" href="#">Estudos biblícos</a><i class="bi bi-pencil-square"></i>
+
+        <div id="itens01">
+          <a href="#">Quartas-Feiras</a>
+          <a href="#">Sabados</a>
+        </div>
+
+
+      </li>
+
+
+    </ul>
+
+  </section>
+
+
+
+</header>
+
+
+
+
+<body>
+  <article>
+    <iframe name="telaiframe" src="">
+
+
+    </iframe>
+
+  </article>
+
+
+  <footer>
+    <h3>Nos acompanhe nas redes sociais</h3><img src="rodape/instagram.png" alt="instagram" title="Instagram">
+    <img src="rodape/facebook.png" title="Facebook"><img src="rodape/whatsapp.png" alt="watsap" title="whatsapp">
+  </footer>
+
+  <script>
+    function cliquemenu() {
+      if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+    }
+
+    function cliquemenu01() {
+      if (itens01.style.display == 'block') {
+        itens01.style.display = 'none'
+      } else {
+        itens01.style.display = 'block'
+      }
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
