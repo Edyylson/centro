@@ -11,6 +11,7 @@ function cliquemenu01() {
     itens01.style.display = 'none'
   } else {
     itens01.style.display = 'block'
+
   }
 }
 
@@ -19,6 +20,7 @@ function clickMenu() {
     section.style.display = 'none'
   } else {
     section.style.display = 'block'
+
   }
 }
 
