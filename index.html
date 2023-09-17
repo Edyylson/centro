@@ -25,7 +25,8 @@
       <li><a onclick="cliquemenu()" href="#">Tesouraria Mensal<i class="bi bi-clipboard2-data"></i></a>
 
         <div id="itens">
-          <a href=" https://edyylson.github.io/agosto01/" target="telaiframe">Fechamento caixa<br> - Agosto</a>
+          <a href=" https://edyylson.github.io/agosto01/" target="telaiframe">Fechamento caixa<br>
+            - Agosto</a>
           <a href=" https://edyylson.github.io/setembro01/" target="telaiframe">fechamento caixa<br> -Setembro</a>
         </div>
 
@@ -84,6 +85,21 @@
         itens01.style.display = 'block'
       }
     }
+
+    function fechando() {
+      if (itens01.style.display == 'block') {
+        itens01.style.display = 'none'
+      }
+    }
+    document.getElementById("itens01").addEventListener("click", fechando)
+
+
+    function fechando01() {
+      if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+      }
+    }
+    document.getElementById("itens").addEventListener("click", fechando01)
 
 
   </script>
