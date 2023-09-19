@@ -1,3 +1,4 @@
+
 function cliquemenu() {
   if (itens.style.display == 'block') {
     itens.style.display = 'none'
@@ -26,14 +27,17 @@ function clickMenu() {
 
 
 function fechando() {
+
   if (itens01.style.display == 'block') {
     itens01.style.display = 'none'
+
   }
 }
 
 function fechando01() {
   if (itens.style.display == 'block') {
     itens.style.display = 'none'
+
   }
 }
 
@@ -45,3 +49,7 @@ document.getElementById("itens01").addEventListener("click", clickMenu)
 
 document.getElementById("itens").addEventListener("click", fechando01)
 document.getElementById("itens").addEventListener("click", clickMenu)
+
+
+
+
